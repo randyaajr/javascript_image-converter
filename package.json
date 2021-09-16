@@ -1,0 +1,35 @@
+{
+  "name": "javascript_image-converter",
+  "version": "1.0.0",
+  "description": "javascript image converter",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randyaajr/javascript_image-converter.git"
+  },
+  "keywords": [
+    "png",
+    "webp",
+    "jpeg",
+    "png",
+    "converter",
+    "image",
+    "covert",
+    "webp"
+  ],
+  "author": "randy anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randyaajr/javascript_image-converter/issues"
+  },
+  "homepage": "https://github.com/randyaajr/javascript_image-converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
