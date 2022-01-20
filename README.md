@@ -1,1 +1,1 @@
-# Person image converter for optimizing images (.Webp) for client projects
+# Personal image converter for optimizing images (.Webp) for client projects
